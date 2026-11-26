@@ -41,9 +41,10 @@ to the chatbot.
 - Not investment advice.
 
 ## Data (USD millions, collected 27 November 2026)
-This data was gathered from public sources for this prototype; it is not a copy of an
-earlier Task 1 analysis. Some figures come from third-party summaries of company filings.
-Check them against your Task 1 data and the original filings before relying on them.
+This data was gathered with AI assistance from public sources for this prototype; it is
+not a copy of an earlier Task 1 analysis. The author checked the figures against company
+reports and filings. The source list below includes the third-party pages used during
+the initial collection.
 
 - Microsoft annual report 2026: https://www.microsoft.com/investor/reports/ar26/index.html
 - Microsoft multi-year figures: https://stockfactsheet.com/stocks/msft/financials/
