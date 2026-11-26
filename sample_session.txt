@@ -1,0 +1,32 @@
+Financial Chatbot Prototype
+Questions (type the number or the full question):
+  1. What is the total revenue?
+  2. How has net income changed over the last year?
+  3. What are the total assets and liabilities?
+  4. What is the cash flow from operating activities?
+  5. What is the net profit margin?
+Type a company name to switch (Microsoft, Apple, Tesla), 'help' or 'exit'.
+
+[no company] You: apple
+Bot: Company set to Apple.
+
+[Apple] You: 1
+Bot: Apple's total revenue in FY2026 was $478,834 million. It increased by $62,673 million (15.1%) from FY2025.
+
+[Apple] You: 2
+Bot: Apple's net income increased by $20,165 million (18.0%), from $112,010 million in FY2025 to $132,175 million in FY2026.
+
+[Apple] You: tesla
+Bot: Company set to Tesla.
+
+[Tesla] You: How has net income changed over the last year?
+Bot: Tesla's net income decreased by $3,297 million (46.5%), from $7,091 million in FY2024 to $3,794 million in FY2025.
+
+[Tesla] You: 5
+Bot: Tesla's net profit margin was 4.0% in FY2025, compared with 7.3% in FY2024.
+
+[Tesla] You: What is the stock price?
+Bot: Sorry, I can only provide information on predefined queries. Type 'help' to see them.
+
+[Tesla] You: exit
+Bot: Goodbye!

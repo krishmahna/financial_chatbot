@@ -1,0 +1,123 @@
+29/29 tests passed
+
+[PASS] Microsoft: What is the total revenue?
+  Input: 'What is the total revenue?' (company: Microsoft)
+  Reply: Microsoft's total revenue in FY2026 was $331,839 million. It increased by $50,115 million (17.8%) from FY2025.
+
+[PASS] Microsoft: How has net income changed over the last year?
+  Input: 'How has net income changed over the last year?' (company: Microsoft)
+  Reply: Microsoft's net income increased by $31,917 million (31.3%), from $101,832 million in FY2025 to $133,749 million in FY2026.
+
+[PASS] Microsoft: What are the total assets and liabilities?
+  Input: 'What are the total assets and liabilities?' (company: Microsoft)
+  Reply: At the end of FY2026, Microsoft had total assets of $758,376 million and total liabilities of $315,989 million.
+
+[PASS] Microsoft: What is the cash flow from operating activities?
+  Input: 'What is the cash flow from operating activities?' (company: Microsoft)
+  Reply: Microsoft's operating cash flow in FY2026 was $182,935 million. It increased by $46,773 million (34.4%) from FY2025.
+
+[PASS] Microsoft: What is the net profit margin?
+  Input: 'What is the net profit margin?' (company: Microsoft)
+  Reply: Microsoft's net profit margin was 40.3% in FY2026, compared with 36.1% in FY2025.
+
+[PASS] Apple: What is the total revenue?
+  Input: 'What is the total revenue?' (company: Apple)
+  Reply: Apple's total revenue in FY2026 was $478,834 million. It increased by $62,673 million (15.1%) from FY2025.
+
+[PASS] Apple: How has net income changed over the last year?
+  Input: 'How has net income changed over the last year?' (company: Apple)
+  Reply: Apple's net income increased by $20,165 million (18.0%), from $112,010 million in FY2025 to $132,175 million in FY2026.
+
+[PASS] Apple: What are the total assets and liabilities?
+  Input: 'What are the total assets and liabilities?' (company: Apple)
+  Reply: At the end of FY2026, Apple had total assets of $404,548 million and total liabilities of $292,455 million.
+
+[PASS] Apple: What is the cash flow from operating activities?
+  Input: 'What is the cash flow from operating activities?' (company: Apple)
+  Reply: Apple's operating cash flow in FY2026 was $145,097 million. It increased by $33,615 million (30.2%) from FY2025.
+
+[PASS] Apple: What is the net profit margin?
+  Input: 'What is the net profit margin?' (company: Apple)
+  Reply: Apple's net profit margin was 27.6% in FY2026, compared with 26.9% in FY2025.
+
+[PASS] Tesla: What is the total revenue?
+  Input: 'What is the total revenue?' (company: Tesla)
+  Reply: Tesla's total revenue in FY2025 was $94,827 million. It decreased by $2,863 million (2.9%) from FY2024.
+
+[PASS] Tesla: How has net income changed over the last year?
+  Input: 'How has net income changed over the last year?' (company: Tesla)
+  Reply: Tesla's net income decreased by $3,297 million (46.5%), from $7,091 million in FY2024 to $3,794 million in FY2025.
+
+[PASS] Tesla: What are the total assets and liabilities?
+  Input: 'What are the total assets and liabilities?' (company: Tesla)
+  Reply: At the end of FY2025, Tesla had total assets of $137,806 million and total liabilities of $54,941 million.
+
+[PASS] Tesla: What is the cash flow from operating activities?
+  Input: 'What is the cash flow from operating activities?' (company: Tesla)
+  Reply: Tesla's operating cash flow in FY2025 was $14,747 million. It decreased by $176 million (1.2%) from FY2024.
+
+[PASS] Tesla: What is the net profit margin?
+  Input: 'What is the net profit margin?' (company: Tesla)
+  Reply: Tesla's net profit margin was 4.0% in FY2025, compared with 7.3% in FY2024.
+
+[PASS] Revenue value
+  Input: 'What is the total revenue?' (company: Microsoft)
+  Reply: Microsoft's total revenue in FY2026 was $331,839 million. It increased by $50,115 million (17.8%) from FY2025.
+
+[PASS] Net income rise
+  Input: 'How has net income changed over the last year?' (company: Apple)
+  Reply: Apple's net income increased by $20,165 million (18.0%), from $112,010 million in FY2025 to $132,175 million in FY2026.
+
+[PASS] Net income fall
+  Input: 'How has net income changed over the last year?' (company: Tesla)
+  Reply: Tesla's net income decreased by $3,297 million (46.5%), from $7,091 million in FY2024 to $3,794 million in FY2025.
+
+[PASS] Assets and liabilities
+  Input: 'What are the total assets and liabilities?' (company: Apple)
+  Reply: At the end of FY2026, Apple had total assets of $404,548 million and total liabilities of $292,455 million.
+
+[PASS] Cash flow value
+  Input: 'What is the cash flow from operating activities?' (company: Tesla)
+  Reply: Tesla's operating cash flow in FY2025 was $14,747 million. It decreased by $176 million (1.2%) from FY2024.
+
+[PASS] Profit margin
+  Input: 'What is the net profit margin?' (company: Microsoft)
+  Reply: Microsoft's net profit margin was 40.3% in FY2026, compared with 36.1% in FY2025.
+
+[PASS] Case and spacing
+  Input: '  what is the TOTAL revenue  ' (company: Apple)
+  Reply: Apple's total revenue in FY2026 was $478,834 million. It increased by $62,673 million (15.1%) from FY2025.
+
+[PASS] Number shortcut
+  Input: '1' (company: Tesla)
+  Reply: Tesla's total revenue in FY2025 was $94,827 million. It decreased by $2,863 million (2.9%) from FY2024.
+
+[PASS] Company switch
+  Input: 'tesla' (company: Apple)
+  Reply: Company set to Tesla.
+
+[PASS] No company yet
+  Input: '1' (company: None)
+  Reply: Please choose a company first: Microsoft, Apple, Tesla.
+
+[PASS] Help
+  Input: 'help' (company: None)
+  Reply: Questions (type the number or the full question):
+  1. What is the total revenue?
+  2. How has net income changed over the last year?
+  3. What are the total assets and liabilities?
+  4. What is the cash flow from operating activities?
+  5. What is the net profit margin?
+Type a company name to switch (Microsoft, Apple, Tesla), 'help' or 'exit'.
+
+[PASS] Unknown query
+  Input: 'What is the stock price?' (company: Apple)
+  Reply: Sorry, I can only provide information on predefined queries. Type 'help' to see them.
+
+[PASS] Out-of-range number
+  Input: '9' (company: Apple)
+  Reply: Sorry, I can only provide information on predefined queries. Type 'help' to see them.
+
+[PASS] Empty input
+  Input: '' (company: Apple)
+  Reply: Sorry, I can only provide information on predefined queries. Type 'help' to see them.
